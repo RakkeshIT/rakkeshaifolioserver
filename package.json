@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "@types/cors": "^2.8.19",
-    "@types/dotenv": "^6.1.1"
+    "@types/dotenv": "^6.1.1",
+    "@types/nodemailer": "^7.0.5",
+    "nodemailer": "^7.0.12"
   }
 }
