@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import Contact from '../routes/api/email'
+import Contact from './routes/api/email'
 dotenv.config()
 
 const app = express()
