@@ -6,7 +6,7 @@ dotenv.config()
 
 router.post("/contact", async (req: Request, res: Response) => {
   try {
-    const { email, message } = req.body;
+    const { email, message } = req.body
 
     if (!email || !message) {
       return res.status(400).json({ error: "Email and Message Required" });
